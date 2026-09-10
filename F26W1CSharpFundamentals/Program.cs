@@ -24,7 +24,16 @@
             //x = "hello";
 
 
+            Console.WriteLine(@"hello ""John"", how are you?");
 
+
+            int cars = 4, bikes = 8, trucks = 20;
+
+            // string concatenation
+            Console.WriteLine("I have " + cars + " cars, " + bikes + " bikes and " + trucks + " trucks");
+
+            // string interpolation
+            Console.WriteLine($"I have {cars} cars, {bikes} bikes and {trucks} trucks");
         }
     }
 }
