@@ -90,6 +90,32 @@
 
             Console.WriteLine(s1);
             Console.WriteLine(s2);
+
+
+            Console.WriteLine("\n\n\n");
+
+            s1 = null;
+            int n = Convert.ToInt32(s1);
+            //int n = int.Parse(s1);
+            Console.WriteLine(n);
+
+            Console.WriteLine("\n\n\n");
+
+
+            double price = 3243.458;
+            Console.WriteLine(price.ToString("C"));
+
+            double discount = 0.25;
+            Console.WriteLine(discount.ToString("P0"));
+
+            double radius = 5;
+            double area = Math.PI * radius * radius;
+            Console.WriteLine(area.ToString("F2"));
+
+            int? num = null;
+            Circle c3 = null;
+
+            c3?.radius = 50;
         }
     }
 
